@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas y Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar películas o series">
+            <button id="searchButton">Buscar</button>
+            <select id="searchType">
+                <option value="movie">Películas</option>
+                <option value="series">Series</option>
+            </select>
+        </div>
+        <div id="moviesContainer" class="movies-container"></div>
+        <div id="loadingMessage" style="display: none;">Cargando...</div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
